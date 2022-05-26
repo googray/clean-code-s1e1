@@ -20,37 +20,37 @@
     </section>
     <section class="main-element">
       <div id="add-block">
-        <label for="new-task">Add Item</label>
+        <label class="label label-new" for="new-task">Add Item</label>
           <div class="task-input__row">
-            <input id="new-task" class="task" type="text">
+            <input id="new-task" class="input input-text task" type="text">
             <button class="btn">Add</button>
           </div>
       </div>
-      <h3 >Todo</h3>
+      <h3 class="subtitle">Todo</h3>
       <ul class="tasks-list" id="todo-tasks">
         <li class="tasks-list__item">
-          <input type="checkbox">
-          <label class="task">Pay Bills</label>
-          <input type="text" class="task">
+          <input type="checkbox" class="input input-checkbox">
+          <label class="label label-task">Pay Bills</label>
+          <input type="text" class=" input input-text task">
           <button class="btn edit">Edit</button>
           <button class="btn delete"><img src="./remove.svg" 
               alt="animate row delete button"></button>
         </li>
         <li class="tasks-list__item edit-mode">
-          <input type="checkbox">
-          <label class="task">Go Shopping</label>
-          <input type="text" value="Go Shopping" class="task">
+          <input type="checkbox" class="input input-checkbox">
+          <label class="label label-task">Go Shopping</label>
+          <input type="text" value="Go Shopping" class="input input-text task">
           <button class="btn edit">Save</button>
           <button class="btn delete"><img src="./remove.svg" 
               alt="animate row delete button"></button>
         </li>
       </ul>
-      <h3>Completed</h3>
+      <h3 class="subtitle">Completed</h3>
       <ul class="tasks-list" id="completed-tasks">
         <li class="tasks-list__item">
-          <input type="checkbox" checked>
-          <label class="task">See the Doctor</label>
-          <input type="text" class="task">
+          <input type="checkbox" class="input input-checkbox" checked >
+          <label class="label label-task">See the Doctor</label>
+          <input type="text" class="input input-text task">
           <button class="btn edit">Edit</button>
           <button class="btn delete"><img src="./remove.svg" 
               alt="animate row delete button"></button>
